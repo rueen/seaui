@@ -1,0 +1,169 @@
+@import "../../base/fn";
+
+.seaui-btn{
+    display: inline-block;
+    height: @seauiBtnHeight; line-height: @seauiBtnHeight;
+    border-radius: @seauiBtnBorderRadius;
+    font-size: @seauiBtnFontSize;
+    padding: 0 .3rem;
+    background-color: @seauiBtnColor;
+    color: @seauiBtnFontColor;
+    
+    &.seaui-btn-outlined{
+        position: relative;
+
+        &:after{
+            content:" ";
+            width: 200%;
+            height:200%;
+            position:absolute;
+            top:0;
+            left:0;
+            border-width: 1px;
+            border-style: solid;
+            -webkit-transform:scale(0.5);
+            transform:scale(0.5);
+            -webkit-transform-origin:0 0;
+            transform-origin:0 0;
+            box-sizing:border-box;
+            border-radius: @seauiBtnBorderRadius * 2;
+        }
+    }
+
+    &.seaui-btn-default{
+        background-color: @seauiDefaultBtnBg;
+
+        &.seaui-btn-outlined{
+            background-color: #fff;
+            &:after{
+                border-color: @seauiBtnBorderColor;
+            }
+            &:active{
+                background-color: @seauiDefaultBtnActiveBg;
+            }
+            &[disabled]{
+                background-color: @seauiDefaultBtnDisabledBg;
+                color: @seauiDefaultBtnDisabledColor;
+            }
+        }
+    }
+    
+    &.seaui-btn-theme{
+        background-color: @seauiThemeBtnBg;
+        color: @seauiThemeBtnFontColor;
+
+        &:active{
+            background-color: @seauiThemeBtnActiveBg;
+        }
+        &[disabled]{
+            background-color: @seauiThemeBtnDisabledBg;
+        }
+        &.seaui-btn-outlined{
+            background-color: #fff;
+            color: @seauiThemeBtnActiveBg;
+
+            &:after{
+                border-color: @seauiThemeBtnActiveBg;
+            }
+            &:active{
+                background-color: @seauiThemeOutlinedBtnBg;
+            }
+        }
+    }
+
+    &.seaui-btn-gray{
+        background-color: @seauiGrayBtnBg;
+        color: @seauiGrayBtnFontColor;
+
+        &:active{
+            background-color: @seauiGrayBtnActiveBg;
+        }
+        &[disabled]{
+            background-color: @seauiGrayBtnDisabledBg;
+        }
+    }
+
+    &.seaui-btn-min{
+        height: @seauiMinBtnHeight;
+        line-height: @seauiMinBtnHeight;
+        font-size: @seauiMinBtnFontSize;
+
+        &.seaui-btn-circular{
+            border-radius: @seauiMinBtnHeight / 2;
+
+            &.seaui-btn-outlined{
+                &:after{
+                    border-radius: @seauiMinBtnHeight;
+                }
+            }
+        }
+    }
+
+    &.seaui-btn-medium{
+        height: @seauiMediumBtnHeight;
+        line-height: @seauiMediumBtnHeight;
+        font-size: @seauiMediumBtnFontSize;
+
+        &.seaui-btn-circular{
+            border-radius: @seauiMediumBtnHeight / 2;
+
+            &.seaui-btn-outlined{
+                &:after{
+                    border-radius: @seauiMediumBtnHeight;
+                }
+            }
+        }
+    }
+    
+    &.seaui-btn-big{
+        height: @seauiBigBtnHeight;
+        line-height: @seauiBigBtnHeight;
+        font-size: @seauiBigBtnFontSize;
+
+        &.seaui-btn-circular{
+            border-radius: @seauiBigBtnHeight / 2;
+
+            &.seaui-btn-outlined{
+                &:after{
+                    border-radius: @seauiBigBtnHeight;
+                }
+            }
+        }
+    }
+
+    &.seaui-btn-max{
+        height: @seauiMaxBtnHeight;
+        line-height: @seauiMaxBtnHeight;
+        font-size: @seauiMaxBtnFontSize;
+
+        &.seaui-btn-circular{
+            border-radius: @seauiMaxBtnHeight / 2;
+
+            &.seaui-btn-outlined{
+                &:after{
+                    border-radius: @seauiMaxBtnHeight;
+                }
+            }
+        }
+    }
+
+    &.seaui-btn-circular{
+        padding: 0 .4rem;
+        border-radius: @seauiBtnHeight / 2;
+
+        &.seaui-btn-outlined{
+            &:after{
+                border-radius: @seauiBtnHeight;
+            }
+        }
+    }
+
+    &.seaui-btn-angle{
+        border-radius: 0;
+    }
+
+    &.seaui-btn-block{
+        display: block;
+        width: 100%;
+    }
+}

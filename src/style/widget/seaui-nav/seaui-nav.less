@@ -1,0 +1,52 @@
+@import "../../base/fn";
+
+.mui-bar{
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    height: 44px;
+    padding-right: .2rem;
+    padding-left: .2rem;
+    border-bottom: 0;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+
+    .mui-title{
+        right: .8rem;
+        left: .8rem;
+        display: inline-block;
+        overflow: hidden;
+        width: auto;
+        margin: 0;
+        text-overflow: ellipsis;
+        font-size: 17px;
+        font-weight: 500;
+        height: .8rem;
+        line-height: .8rem;
+        position: absolute;
+        display: block;
+        width: 100%;
+        margin: 0 -.2rem;
+        padding: 0;
+        text-align: center;
+        white-space: nowrap;
+        color: #000;
+    }
+}
+.mui-bar-nav{
+    top: 0;
+    background: #fff;
+
+    &:after{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 1px;
+        content: '';
+        -webkit-transform: scaleY(.5);
+                transform: scaleY(.5);
+        background-color: #E2E2E2;
+    }
+}
