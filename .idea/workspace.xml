@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5defd21d-d2af-443a-bc94-c33256ef11b6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/example/fragment/badge.html" afterPath="$PROJECT_DIR$/dist/example/fragment/badge.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/example/fragment/picker.html" afterPath="$PROJECT_DIR$/dist/example/fragment/picker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/style/seaui.css" afterPath="$PROJECT_DIR$/dist/style/seaui.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/fragment/badge.html" afterPath="$PROJECT_DIR$/src/example/fragment/badge.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/example/fragment/picker.html" afterPath="$PROJECT_DIR$/src/example/fragment/picker.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/seaui.less" afterPath="$PROJECT_DIR$/src/style/seaui.less" />
-    </list>
+    <list default="true" id="5defd21d-d2af-443a-bc94-c33256ef11b6" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -152,7 +145,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1938" />
@@ -330,7 +323,7 @@
     <option name="totallyTimeSpent" value="10180000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
